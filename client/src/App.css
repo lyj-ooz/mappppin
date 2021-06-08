@@ -1,0 +1,61 @@
+.card {
+  border-radius: 10px;
+  width: 250px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+label {
+  width: max-content;
+  color: #ff6347;
+  font-size: 0.8rem;
+  border-bottom: 0.5px solid #ff6347;
+  margin: 3px 0;
+}
+
+.desc {
+  font-size: 0.9rem;
+}
+
+.star {
+  color: #f3d52d;
+}
+
+.username {
+  font-size: 0.9rem;
+}
+
+.date {
+  font-size: 0.8rem;
+}
+
+form {
+  width: 250px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+input,
+textarea {
+  border: none;
+  border-bottom: 1px solid #333;
+}
+
+input::placeholder,
+text::placeholder {
+  font-size: 0.8rem;
+  color: #333;
+}
+
+.submitBtn {
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  color: #fff;
+  background-color: tomato;
+  cursor: pointer;
+}
